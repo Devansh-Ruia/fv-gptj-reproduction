@@ -1,0 +1,24 @@
+# lock files
+*.lock
+uv.lock
+poetry.lock
+Pipfile.lock
+package-lock.json
+
+# model weights
+*.safetensors
+*.bin
+*.ckpt
+*.pth
+*.h5
+*.gguf
+
+# tensors (covers masks.pt)
+*.pt
+
+# caches
+__pycache__/
+.ipynb_checkpoints/
+.cache/
+hf/
+.pytest_cache/
